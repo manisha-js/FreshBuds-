@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>home</title>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Outfit:wght@800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+   
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.div1{
+   background-image: url("https://static.vecteezy.com/system/resources/previews/023/636/462/non_2x/lilac-flower-bokeh-background-illustration-ai-generative-free-photo.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+    }
+
+    header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color:violet;
+}
+
+.nav{
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+ 
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav1{
+  color: white;
+  
+
+}
+
+.logo{
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#ffffff;
+}
+
+.box{
+  color:white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.cart-count{
+  position: absolute;
+  background-color: #2f3542;
+  top: -5px;
+  right: 0;
+  padding: 3px;
+  height: 20px;
+  width: 20px;
+  line-height:20px ;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+#cart-icon{
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+h1{
+    
+  
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+
+  
+    color: white;
+    text-shadow: 3px 5px 10px black;
+    font-size: 70px;
+    padding-top: 150px;
+    padding-left: 600px;
+}
+h2{
+  
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+    text-shadow: 3px 5px 10px black;
+    font-size: 70px;
+    padding-left: 650px;
+    
+}
+
+.aa{
+  font-family: "Pacifico", cursive;
+  font-weight: 200;
+  font-style: normal;
+  color:violet;
+  text-shadow: 3px 5px 10px black;
+  font-size: 60px;
+  padding-left: 400px
+
+
+}
+.p{
+  color: white;
+    text-shadow: 3px 5px 10px black;
+    font-size: 20px;
+    padding-left: 650px;
+}
+
+.button{
+  font-size: 20px;
+    margin-left:  850px;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+    background-color: violet;
+   border: #ffffff;
+    color: white;
+}
+.img1{
+  /* border-radius: 190px; */
+  margin-left: 70px;
+  padding-top: 50px;
+}
+
+.img2{
+  padding-left: 60px;
+  padding-top: 50px;
+}
+
+.img3{
+
+  padding-left: 100px;
+  margin-top: 20px;
+}
+
+.a1{
+  font-size: 30px;
+  color:violet;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+
+.a2{
+  font-size: 30px;
+  color:violet;
+  padding-left: 280px;
+  padding-top: 20px;
+}
+
+.a3{
+  font-size: 30px;
+  color:violet;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+.bb{
+  display: flex;
+}
+.div3{
+  background-image: url("https://img.freepik.com/premium-photo/violet-flower-background-with-copy-space_483949-16369.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  
+}
+.b1{
+  font-family: "Pacifico", cursive;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 50px;
+  color:violet;
+    text-shadow: 3px 5px 10px black;
+    padding-top: 50px;
+    padding-left: 100px;
+
+}
+.b2{
+  font-family: "Pacifico", cursive;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 50px;
+  color:violet;
+    text-shadow: 3px 5px 10px black;
+    padding-left: 100px;
+   
+}
+
+
+.but{
+  border: violet;
+  color: violet;
+  background-color: white;
+   font-size: 20px;
+    margin-left:  150px;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+}
+.ss{
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+
+
+.div4{
+  background-image: url("https://marketplace.canva.com/EAE9zTm9mKI/1/0/1600w/canva-latam-zoom-background-purple-8liuFIgDi8c.jpg");
+ background-size: cover;
+ height: 450px;
+ margin-top: 130px;
+ display: flex;
+}
+.abc{
+  
+  font-family: "Pacifico", cursive;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 50px;
+font-size: 50px;
+  color:violet;
+    text-shadow: 3px 5px 10px black;
+    padding-left: 260px;
+    padding-top: 60px;
+}
+.abc1{
+padding-left: 250px;
+padding-top: 20px;
+}
+.pic1{
+  padding-top: 50px;
+  border-radius: 80px ;
+  padding-left: 30px;
+}
+.pic2{
+  padding-top: 50px;
+  border-radius: 80px ;
+  padding-left: 20px;
+}
+.clac{
+  display: flex;
+  padding-top: 50px;
+}
+.head1{
+  
+  font-family: "Pacifico", cursive;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 50px;
+font-size: 50px;
+  color:pink;
+    text-shadow: 3px 5px 10px black;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.head{
+  
+  font-family: "Pacifico", cursive;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+  color:pink;
+    text-shadow: 3px 5px 10px white;
+    padding-left: 20px;
+}
+.arrow{
+  font-size: 5px;
+  height: 130px;
+  width: 130px;
+  padding-top: 60px;
+}
+#cont{
+  padding-left: 20px;
+}
+.cust{
+  margin-left: 550px;
+  background-color: pink;
+   border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    
+   border: #ffffff;
+    color: white;
+
+}
+#abc1{
+  color: violet;
+  text-shadow: 3px 5px 10px black;
+  font-size: 50px;
+  padding-left: 550px;
+  padding-top: 30px;
+  font-family: "Pacifico", cursive;
+  font-weight: 200;
+  font-style: normal;
+  
+}
+.gallery{
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-left: 35px;
+}
+
+.div6{
+  background-color: rgb(221, 191, 221);
+  margin-top: 70px;
+  color: white;
+
+  height: 350px;
+  width: 100%;
+}
+.head3{
+  font-size: 50px;
+  text-shadow: white;
+  font-family: "Pacifico", cursive;
+  font-weight: 200;
+  font-style: normal;
+  padding-top: 20px;
+  padding-left: 450px;
+}
+
+.div7{
+   display: flex;
+  text-align: center;
+
+}
+.ha{
+  
+  font-size: 30px;
+  padding-left: 40px;
+  margin-left: 150px;
+  padding-top: 30px;
+}
+
+.div8{
+  text-align: center;
+  padding-top: 40px;
+}
+.icon1{
+  color: white;
+ margin-left: 30px;
+
+  
+}
+.icon2{
+  color: white;
+  margin-left: 30px;
+
+}
+
+.icon3{
+  color: white;
+  margin-left: 30px;
+
+}
+.icon4{
+  color: white;
+  margin-left: 30px;
+}
+.div9{
+  background-color: violet;
+  height: 30px;
+  padding-left: 450px;
+  margin-top: 40px;
+}
+
+</style>
+    </head>
+    <body>
+      <div class="div1">        <header>
+        <div class="nav">
+    
+          <a href="#" class="logo">
+            <ion-icon name="rose"></ion-icon>
+            Fresh Buds
+          </a>
+          <a href="Home.html" class="nav1">Home</a>
+          <a href="About.html" class="nav1">About</a>
+          <a href="flowers.html" class="nav1"> Gallery</a> 
+          <a href="contact.html" class="nav1">Contacts</a>
+
+          <div class="box">
+            <div class="cart-count">0</div>
+            <ion-icon name="cart"  id="cart-icon" ></ion-icon>
+          </div>
+</header>
+
+        <div>
+                <h1>Flowers makes</h1>
+                <h2> Memories!</h2>
+                <p class="p">larem ipsum dolor sit amet, constetur sadipscing eliter,set diam nonumy</p>
+                <p class="p">eirmed tempor invidunt ut labor at dolare magna aliquyam erat,set diam.</p>
+                <button class="button">Order now</button>
+            </div>
+       </div>
+ <div class="div2">
+        <p class="aa">Shop By Category</p>
+
+       
+        <img class="img1" height="350px"  width="350px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTvB489Q4tQydIc6n7kXGrQB6HOA0AeHAQvIUtDfdzBw&s" alt=""  >
+
+        
+
+        <img class="img2" height="350px"  width="350px" src="https://dzpdbgwih7u1r.cloudfront.net/96a71339-0653-49cf-bd89-9c109941f982/96a71e67-e1b0-4f0b-8507-4cae92128946/984e2f06-3871-4daa-a118-dd86af192df0/w400h400-hezxqsrbf.jpg" alt="">
+     
+        <img class="img3" height="350px" width="450px" src="https://angela-flower.com/cdn/shop/products/IMG_2799_1024x1024.jpg?v=1666604645" alt="">
+     
+      </div>
+      <div class="bb">
+        <p class="a1">Flowers</p>
+        <p class="a2">Whorkshop</p>
+        <p class="a3">Flowers Arrangement</p>
+      </div>
+
+      <div class="div3">
+        <div class="ee">
+        <p class="b1">What We Do & </p>
+         <p class="b2">What We Create</p>
+
+         
+        <p class="ss">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam <br>
+        nonumy eirmod tempor invidunt ut labore et dolore magna <br>
+        aliquyam erat, sed diam voluptua. At vero eos et accusam et<br>
+        <br>
+
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam <br>
+        nonumy eirmod tempor invidunt ut labore et dolore magna <br>
+        aliquyam erat, sed diam voluptua. At ve</p><br>
+
+        <button class="but">Order now</button>
+        </div>
+
+        <!--  -->
+        
+ 
+        </div>
+    
+<div class="div4">
+
+  <div class="con">
+    <p class="abc">Check Out Our <br> Favourites</p>
+    <p class="abc1">Lorem ipsum dolor sit amet, consetetur <br> sadipscing elitr, sed diam nonumy eirmod  <br>tempor invidunt ut labore et dolore magna</p>
+  </div>
+
+  <div class="pic">
+<img class="pic1" height="400" width="300" src="https://www.fnp.com/images/pr/m/v200/beautiful-pink-roses-glass-vase-arrangement.jpg" alt="">
+<img class="pic2"   height="400" width="300" src="https://assets.eflorist.com/assets/products/PZM_/TEV71-6A.jpg;jsessionid=z1hlk8p2kH2MULnlvlDdZ8_qfYE61Otn-IZs_XlI.d6100114e7be60ea6d4851b?impolicy=hero&impolicy=hero" alt="">
+
+  </div>
+
+  </div>
+
+  <div class="div5">
+    <p class="head1">Customize Your Own</p>
+
+    <div class="clac">
+    <div class="add1"> 
+      <img class="pic01" src="https://ccreadysites.cyberchimps.com/florist/wp-content/uploads/sites/234/2022/11/Group-676.png" alt="">
+      <p class="head">Select Flowers</p>
+      <p id="cont">Select From a Wide <br>
+        Variety Of Flowers</p>
+        
+    </div>
+    <img class="arrow" src="https://cdn-icons-png.flaticon.com/128/13554/13554816.png" alt="">
+
+    <div class="add2">
+      <img class="pic02" src="https://ccreadysites.cyberchimps.com/florist/wp-content/uploads/sites/234/2022/11/Mask-Group-22.png" alt="">
+      <p class="head">Choose Wrappings</p>
+      <p id="cont">Choose Wrappings & Decorations <br>
+        To Add Around The Bouquet</p>
+        
+    </div>
+    <img class="arrow" src="https://cdn-icons-png.flaticon.com/128/13554/13554816.png" alt="">
+
+    <div>
+      <img class="pic03" src="https://ccreadysites.cyberchimps.com/florist/wp-content/uploads/sites/234/2022/11/Group-677.png" alt="">
+      <p class="head">Add A Note</p>
+      <p id="cont">Add A Lovely Message For <br>
+        Your Loved Ones</p>
+       
+    </div>
+    <img class="arrow" src="https://cdn-icons-png.flaticon.com/128/13554/13554816.png" alt="">
+
+    <div>
+      <img class="pic04" src="https://ccreadysites.cyberchimps.com/florist/wp-content/uploads/sites/234/2022/11/Mask-Group-24.png" alt="">
+      <p class="head">Send The Bouquet</p>
+      <p id="cont">Send The Finished Bouquet <br>
+        & See Happy Faces!</p>
+    </div>
+
+   
+    </div>
+ <button class="cust">Customize Now</button>
+
+  </div>
+
+  <div>
+    <p id="abc1">Gallery</p>
+
+
+    <div class="gallery">
+
+<div> 
+  <img src="https://ccreadysites.cyberchimps.com/florist/wp-content/uploads/sites/234/2022/11/marta-nikolajenko-Nwb0LGk53L4-unsplash.jpg" alt="">
+</div>
+
+<div>
+  <img height="280" width="280" src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZsb3dlcnN8ZW58MHx8MHx8fDA%3D" alt="">
+</div>
+
+<div>
+  <img  src="https://ccreadysites.cyberchimps.com/florist/wp-content/uploads/sites/234/2022/11/anna-cicognani-RRl4UPoC-8E-unsplash.jpg" alt="">
+</div>
+
+<div>
+  <img  height="280px" width="280px" src="https://cms.interiorcompany.com/wp-content/uploads/2024/01/bougainvillaea-beautiful-flowers-1.jpg" alt="">
+</div>
+
+<div>
+  <img  height="280"  width="280" src="https://ccreadysites.cyberchimps.com/florist/wp-content/uploads/sites/234/2022/11/gallery-10.jpg" alt="">
+</div>
+
+<div> 
+  <img height="280" width="280" src="https://ccreadysites.cyberchimps.com/florist/wp-content/uploads/sites/234/2022/11/gallery-13.jpg" alt="">
+</div>
+
+<div> 
+  <img height="280" width="280" src="https://images.pexels.com/photos/53141/rose-red-blossom-bloom-53141.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+</div>
+
+<div>
+  <img height="280" width="280" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsadxdqKwuO7x0tMTLILr2aRcs0TItxab6WRXSqKWz9A&s" alt="">
+</div>
+    </div>
+  </div>
+
+  <div class="div6" >
+<p class="head3">FRESH BUDS</p>
+<div class="div7">
+  <p class="ha">HOME</p>
+  <p class="ha">ABOUT</p>
+  <p class="ha">GALLERY</p>
+  <p class="ha">CONTACT</p>
+</div>
+<div class="div8" >
+
+  <img class="icon1"  height="50px" width="50px" src="https://cdn-icons-png.flaticon.com/128/1362/1362857.png" alt="">
+
+  <img  class="icon2"  height="50px" width="50px" src="https://cdn-icons-png.flaticon.com/128/665/665209.png" alt="">
+
+  <img class="icon3" height="50px" width="50px" src="https://cdn-icons-png.flaticon.com/128/665/665228.png" alt="">
+
+  <img  class="icon4"  height="50px" width="50px" src="https://cdn-icons-png.flaticon.com/128/8142/8142593.png" alt="">
+  
+
+  <div class="div9" style="background-color: violet; color: white; padding-right: 450px;">
+  © 2024 Bloom | Powered by Responsive Theme
+
+</div>
+
+
+
+  </div>
+  </div>
+
+
+    </body>
+</html>
